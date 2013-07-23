@@ -5,4 +5,4 @@ nbproject
 .idea
 .project
 .settings
-vendor/*
+vendor*

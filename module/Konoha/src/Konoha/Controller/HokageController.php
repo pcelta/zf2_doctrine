@@ -14,7 +14,6 @@ class HokageController extends AbstractActionController
         $em = $objectManager = $this
             ->getServiceLocator()
             ->get('Doctrine\ORM\EntityManager');
-        print_r($em);
         echo 'chamou o hokage';
         die();
     }

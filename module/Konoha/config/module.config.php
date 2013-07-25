@@ -27,7 +27,10 @@ return array(
     ),
     'view_manager' => array(
         'template_path_stack' => array(
-            'konoha' => __DIR__ . '/../view',
+            'konoha' => __DIR__ . '/../view/layouts/'.\Common\Factory\Theme::getInstance()->getLayoutName().'/themes/' . \Common\Factory\Theme::getInstance()->getThemeName(),
+        ),
+        'template_map' => array(
+            'konoha/layout'           => __DIR__ . '/../view/layouts/'.\Common\Factory\Theme::getInstance()->getLayoutName().'/layout.phtml',
         ),
     ),
     'doctrine' => array(

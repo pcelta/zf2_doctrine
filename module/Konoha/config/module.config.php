@@ -3,6 +3,7 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Konoha\Controller\Hokage' => 'Konoha\Controller\HokageController',
+            'Konoha\Controller\Webservice' => 'Konoha\Controller\WebserviceController',
         ),
     ),
     // routing
